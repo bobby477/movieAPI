@@ -108,3 +108,5 @@ app.get('/directors/:directorId/movies/', async (request, response) => {
 
   response.send(result.movie_name)
 })
+
+module.exports = app
