@@ -106,7 +106,7 @@ app.get('/directors/:directorId/movies/', async (request, response) => {
 
   const result = db.get(dbquery)
 
-  response.send(result.movie_name)
+  response.send(result)
 })
 
 module.exports = app
